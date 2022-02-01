@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331CF9A2346B8618BDC3B977 /* Pods_Landmarks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE160898E4605A8857D553D /* Pods_Landmarks.framework */; };
+		4F20A4D96EBAF573A1344612 /* Pods_MacLandmarks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF490A5DAE79917B1065249C /* Pods_MacLandmarks.framework */; };
+		741145D81D30980DFCE71C1C /* Pods_WatchLandmarks_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A703733DB8BA10C4F72F28C5 /* Pods_WatchLandmarks_WatchKit_Extension.framework */; };
 		AC1E7682275F85B9000EB1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1E7681275F85B9000EB1AF /* Assets.xcassets */; };
 		AC1E7688275F85B9000EB1AF /* WatchLandmarks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC1E7687275F85B9000EB1AF /* WatchLandmarks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC1E768F275F85B9000EB1AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E768E275F85B9000EB1AF /* ContentView.swift */; };
@@ -46,7 +49,6 @@
 		AC1E76D5275F8F53000EB1AF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC76CC0274C6370000EBAEA /* ModelData.swift */; };
 		AC1E76D7275F9032000EB1AF /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E76D6275F9032000EB1AF /* LandmarkDetail.swift */; };
 		AC1E76D9275F9326000EB1AF /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E76D8275F9326000EB1AF /* LandmarkList.swift */; };
-		AC1E76DB275F9CC7000EB1AF /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E76DA275F9CC7000EB1AF /* LandmarkCommands.swift */; };
 		AC1E76DC275F9CC7000EB1AF /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E76DA275F9CC7000EB1AF /* LandmarkCommands.swift */; };
 		AC1E76DE275F9FBF000EB1AF /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E76DD275F9FBF000EB1AF /* LandmarkSettings.swift */; };
 		AC72C5352757058A00151631 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72C5312757058A00151631 /* GraphCapsule.swift */; };
@@ -85,6 +87,7 @@
 		ACF9B0D02758392200366D18 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9B0CF2758392200366D18 /* ProfileSummary.swift */; };
 		ACF9B0D2275839F900366D18 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9B0D1275839F900366D18 /* HikeBadge.swift */; };
 		ACF9B0D427583E1500366D18 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9B0D327583E1500366D18 /* ProfileEditor.swift */; };
+		C66873A01EA96B6663C51409 /* Pods_WatchLandmarks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3DE2A143BEE3CF36F14ED6 /* Pods_WatchLandmarks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +133,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		290F17C7B7ACD24A7B065E50 /* Pods-Landmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.release.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.release.xcconfig"; sourceTree = "<group>"; };
+		3FE160898E4605A8857D553D /* Pods_Landmarks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Landmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6013FA53B9EC7DB675F7FF32 /* Pods-MacLandmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacLandmarks.release.xcconfig"; path = "Target Support Files/Pods-MacLandmarks/Pods-MacLandmarks.release.xcconfig"; sourceTree = "<group>"; };
+		6D581494FC4A2356CAFE63C9 /* Pods-WatchLandmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchLandmarks.release.xcconfig"; path = "Target Support Files/Pods-WatchLandmarks/Pods-WatchLandmarks.release.xcconfig"; sourceTree = "<group>"; };
+		878934BE3C97C0584826BDC9 /* Pods-MacLandmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacLandmarks.debug.xcconfig"; path = "Target Support Files/Pods-MacLandmarks/Pods-MacLandmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		90E54F39D8BE7CD39232B8A1 /* Pods-Landmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		99012896D45D253D53501596 /* Pods-WatchLandmarks WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchLandmarks WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-WatchLandmarks WatchKit Extension/Pods-WatchLandmarks WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		A703733DB8BA10C4F72F28C5 /* Pods_WatchLandmarks_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchLandmarks_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AEC67E5DCA262BDE348451 /* Pods-WatchLandmarks WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchLandmarks WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WatchLandmarks WatchKit Extension/Pods-WatchLandmarks WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		AC1E767F275F85B7000EB1AF /* WatchLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1E7681275F85B9000EB1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1E7687275F85B9000EB1AF /* WatchLandmarks WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchLandmarks WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,13 +200,25 @@
 		ACF9B0CF2758392200366D18 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		ACF9B0D1275839F900366D18 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		ACF9B0D327583E1500366D18 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		DC82D83889D79766FA88BE0B /* Pods-WatchLandmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchLandmarks.debug.xcconfig"; path = "Target Support Files/Pods-WatchLandmarks/Pods-WatchLandmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		DF490A5DAE79917B1065249C /* Pods_MacLandmarks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacLandmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3DE2A143BEE3CF36F14ED6 /* Pods_WatchLandmarks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchLandmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		46F5845F5350AEE4286D3E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66873A01EA96B6663C51409 /* Pods_WatchLandmarks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC1E7684275F85B9000EB1AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741145D81D30980DFCE71C1C /* Pods_WatchLandmarks_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F20A4D96EBAF573A1344612 /* Pods_MacLandmarks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,12 +234,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331CF9A2346B8618BDC3B977 /* Pods_Landmarks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351D7EA1B841E3E3C312407B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E54F39D8BE7CD39232B8A1 /* Pods-Landmarks.debug.xcconfig */,
+				290F17C7B7ACD24A7B065E50 /* Pods-Landmarks.release.xcconfig */,
+				878934BE3C97C0584826BDC9 /* Pods-MacLandmarks.debug.xcconfig */,
+				6013FA53B9EC7DB675F7FF32 /* Pods-MacLandmarks.release.xcconfig */,
+				DC82D83889D79766FA88BE0B /* Pods-WatchLandmarks.debug.xcconfig */,
+				6D581494FC4A2356CAFE63C9 /* Pods-WatchLandmarks.release.xcconfig */,
+				99012896D45D253D53501596 /* Pods-WatchLandmarks WatchKit Extension.debug.xcconfig */,
+				A9AEC67E5DCA262BDE348451 /* Pods-WatchLandmarks WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		38874B57CF1086055DEA7B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FE160898E4605A8857D553D /* Pods_Landmarks.framework */,
+				DF490A5DAE79917B1065249C /* Pods_MacLandmarks.framework */,
+				FF3DE2A143BEE3CF36F14ED6 /* Pods_WatchLandmarks.framework */,
+				A703733DB8BA10C4F72F28C5 /* Pods_WatchLandmarks_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC1E7680275F85B7000EB1AF /* WatchLandmarks */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +395,8 @@
 				AC1E768B275F85B9000EB1AF /* WatchLandmarks WatchKit Extension */,
 				AC1E76BB275F8EC4000EB1AF /* MacLandmarks */,
 				ACC76CA6274C2425000EBAEA /* Products */,
+				351D7EA1B841E3E3C312407B /* Pods */,
+				38874B57CF1086055DEA7B36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -430,8 +484,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC1E76A7275F85BA000EB1AF /* Build configuration list for PBXNativeTarget "WatchLandmarks" */;
 			buildPhases = (
+				0CC434750D879BD6684B9DFE /* [CP] Check Pods Manifest.lock */,
 				AC1E767D275F85B7000EB1AF /* Resources */,
 				AC1E76A3275F85BA000EB1AF /* Embed App Extensions */,
+				46F5845F5350AEE4286D3E35 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -447,6 +503,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC1E76A6275F85BA000EB1AF /* Build configuration list for PBXNativeTarget "WatchLandmarks WatchKit Extension" */;
 			buildPhases = (
+				C5CA5936B7FD3E986B99A203 /* [CP] Check Pods Manifest.lock */,
 				AC1E7683275F85B9000EB1AF /* Sources */,
 				AC1E7684275F85B9000EB1AF /* Frameworks */,
 				AC1E7685275F85B9000EB1AF /* Resources */,
@@ -464,6 +521,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC1E76C6275F8EC5000EB1AF /* Build configuration list for PBXNativeTarget "MacLandmarks" */;
 			buildPhases = (
+				C2D48874F8824D3F22B3189A /* [CP] Check Pods Manifest.lock */,
 				AC1E76B6275F8EC4000EB1AF /* Sources */,
 				AC1E76B7275F8EC4000EB1AF /* Frameworks */,
 				AC1E76B8275F8EC4000EB1AF /* Resources */,
@@ -481,10 +539,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACC76CB3274C2426000EBAEA /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
+				4F1330790B88C063F12BF6BF /* [CP] Check Pods Manifest.lock */,
 				ACC76CA1274C2425000EBAEA /* Sources */,
 				ACC76CA2274C2425000EBAEA /* Frameworks */,
 				ACC76CA3274C2425000EBAEA /* Resources */,
 				AC1E76A0275F85BA000EB1AF /* Embed Watch Content */,
+				C3FAA80632AB93381F0DEB21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -587,6 +647,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC434750D879BD6684B9DFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchLandmarks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1330790B88C063F12BF6BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Landmarks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D48874F8824D3F22B3189A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacLandmarks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FAA80632AB93381F0DEB21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Landmarks/Pods-Landmarks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Landmarks/Pods-Landmarks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Landmarks/Pods-Landmarks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CA5936B7FD3E986B99A203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchLandmarks WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC1E7683275F85B9000EB1AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -636,7 +804,6 @@
 			files = (
 				AC72C53D2757100A00151631 /* CategoryRow.swift in Sources */,
 				ACF9B0CA2758382A00366D18 /* Profile.swift in Sources */,
-				AC1E76DB275F9CC7000EB1AF /* LandmarkCommands.swift in Sources */,
 				ACC76CAB274C2425000EBAEA /* ContentView.swift in Sources */,
 				AC72C53B27570BDF00151631 /* CategoryHome.swift in Sources */,
 				AC740B37275EF6FD003FAE6D /* FeatureCard.swift in Sources */,
@@ -688,6 +855,7 @@
 /* Begin XCBuildConfiguration section */
 		AC1E76A1275F85BA000EB1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC82D83889D79766FA88BE0B /* Pods-WatchLandmarks.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -714,6 +882,7 @@
 		};
 		AC1E76A2275F85BA000EB1AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D581494FC4A2356CAFE63C9 /* Pods-WatchLandmarks.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -740,6 +909,7 @@
 		};
 		AC1E76A4275F85BA000EB1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99012896D45D253D53501596 /* Pods-WatchLandmarks WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -771,6 +941,7 @@
 		};
 		AC1E76A5275F85BA000EB1AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9AEC67E5DCA262BDE348451 /* Pods-WatchLandmarks WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -802,6 +973,7 @@
 		};
 		AC1E76C7275F8EC5000EB1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878934BE3C97C0584826BDC9 /* Pods-MacLandmarks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -829,6 +1001,7 @@
 		};
 		AC1E76C8275F8EC5000EB1AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6013FA53B9EC7DB675F7FF32 /* Pods-MacLandmarks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -972,6 +1145,7 @@
 		};
 		ACC76CB4274C2426000EBAEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E54F39D8BE7CD39232B8A1 /* Pods-Landmarks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1001,6 +1175,7 @@
 		};
 		ACC76CB5274C2426000EBAEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290F17C7B7ACD24A7B065E50 /* Pods-Landmarks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

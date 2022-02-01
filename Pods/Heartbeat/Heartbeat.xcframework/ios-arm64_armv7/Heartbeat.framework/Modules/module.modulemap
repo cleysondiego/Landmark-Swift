@@ -1,0 +1,6 @@
+framework module Heartbeat {
+  umbrella header "Heartbeat.h"
+
+  export *
+  module * { export * }
+}

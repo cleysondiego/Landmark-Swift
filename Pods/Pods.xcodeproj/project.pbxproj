@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FFA09679C1E0291AF996C0639DC88625 /* Heartbeat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DAE25D5E96E7E85C773E2D0A779AC5E1 /* Build configuration list for PBXAggregateTarget "Heartbeat" */;
+			buildPhases = (
+				F2E196E7912171BBF1C85A69065DDBF1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Heartbeat;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08856053EE7B2B120263034638A16AC3 /* Pods-WatchLandmarks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D38E31B1F6C404571F2B9668A03D /* Pods-WatchLandmarks-dummy.m */; };
+		18BA3ACA36721250247775D036308F74 /* Pods-WatchLandmarks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 150DEA7CC7264D0B94199B21177C21A4 /* Pods-WatchLandmarks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A63C08EB81EDA6F5595C0A5A9DEBD2 /* Pods-Landmarks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F622AE50DE77DA60714AFF9ADA52D149 /* Pods-Landmarks-dummy.m */; };
+		3639563BA532E89EF96DE46A50B8CDEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41963334B99EEF01E4481B9D714AE2CE /* Foundation.framework */; };
+		3CE756958A36A5BBB2184D4FA61FF242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A62E90971716505A5AFFB37E351D3D /* Foundation.framework */; };
+		50783ACA583082D8B8B42C95AE1AA57A /* Pods-WatchLandmarks WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 479CB0A8FED7842B442925B9878FC7D8 /* Pods-WatchLandmarks WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5768E0E5818281D0B9E3F843A896DA24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41963334B99EEF01E4481B9D714AE2CE /* Foundation.framework */; };
+		760B485156ADEE711E3F82A9E436CE74 /* Pods-MacLandmarks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4914F46CAEEE17071AE519C8753DBB61 /* Pods-MacLandmarks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE9372A743A3403139CA4BF23A7CA2E /* Pods-Landmarks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA0E9A1E3E9261C5B2D184C99E90C15 /* Pods-Landmarks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98C06DE4F49A054B97234CF73CC3F64 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A44DD34F5CC7808466AC0BE6DA1F144 /* Cocoa.framework */; };
+		D15420349F4DB044DA1035DEFEFB12CC /* Pods-WatchLandmarks WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E503F8244AB60DE86F5ED0FC3D3A3B6 /* Pods-WatchLandmarks WatchKit Extension-dummy.m */; };
+		E3D19B5BFEB88257CEA50C0D799835F8 /* Pods-MacLandmarks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D932E3DE40884FCD0048E60F98B97 /* Pods-MacLandmarks-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68C44A46297326C071EA8B638008B4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA09679C1E0291AF996C0639DC88625;
+			remoteInfo = Heartbeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B28CC6530749A0B8AA9C9ADB43EE8E /* Pods-Landmarks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Landmarks-acknowledgements.plist"; sourceTree = "<group>"; };
+		0110BFEF3150159AC042C8A1291E396A /* Heartbeat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Heartbeat-xcframeworks.sh"; sourceTree = "<group>"; };
+		0A44DD34F5CC7808466AC0BE6DA1F144 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		10C3230034B899E3351F4557E15ACEB4 /* Heartbeat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Heartbeat.xcframework; sourceTree = "<group>"; };
+		150DEA7CC7264D0B94199B21177C21A4 /* Pods-WatchLandmarks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchLandmarks-umbrella.h"; sourceTree = "<group>"; };
+		1EF3EEC1CBDFE6A70D6D7D579D2D8FB8 /* Heartbeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Heartbeat.release.xcconfig; sourceTree = "<group>"; };
+		231DAA7BEA18D949200ED6B2A1E93657 /* Pods-WatchLandmarks WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchLandmarks WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		2790DF9E903021FC9F69FE09D9F19E66 /* Pods-MacLandmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacLandmarks.release.xcconfig"; sourceTree = "<group>"; };
+		32CB5158F534954673A07F18A5A369C1 /* Pods-WatchLandmarks WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchLandmarks WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		35B6435050640FD3006C6DAB8072C721 /* Pods-MacLandmarks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MacLandmarks"; path = Pods_MacLandmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41963334B99EEF01E4481B9D714AE2CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		479CB0A8FED7842B442925B9878FC7D8 /* Pods-WatchLandmarks WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchLandmarks WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		4914F46CAEEE17071AE519C8753DBB61 /* Pods-MacLandmarks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MacLandmarks-umbrella.h"; sourceTree = "<group>"; };
+		60C9ECB6A35800F8E551963B0AA2D880 /* Pods-Landmarks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Landmarks"; path = Pods_Landmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		632D932E3DE40884FCD0048E60F98B97 /* Pods-MacLandmarks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacLandmarks-dummy.m"; sourceTree = "<group>"; };
+		64E4A05C78460EDF531E745B23C4EC7D /* Pods-WatchLandmarks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchLandmarks-Info.plist"; sourceTree = "<group>"; };
+		6995B6F095336C37A17C3F16A57C9D59 /* Pods-WatchLandmarks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchLandmarks.modulemap"; sourceTree = "<group>"; };
+		6B305D8958D54D6B7CD015A6263B7103 /* Pods-Landmarks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Landmarks.modulemap"; sourceTree = "<group>"; };
+		6E0194154C4D20065BBDD7BD2852C55D /* Pods-WatchLandmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchLandmarks.release.xcconfig"; sourceTree = "<group>"; };
+		736C4665ED076EB3559B048A232B8DA9 /* Pods-MacLandmarks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacLandmarks-Info.plist"; sourceTree = "<group>"; };
+		7CE9D38E31B1F6C404571F2B9668A03D /* Pods-WatchLandmarks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchLandmarks-dummy.m"; sourceTree = "<group>"; };
+		7E8F89750C5CA9B318651C583A234947 /* Pods-WatchLandmarks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchLandmarks"; path = Pods_WatchLandmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93ACD74CE291502B61F2F9067992550D /* Pods-Landmarks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Landmarks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E503F8244AB60DE86F5ED0FC3D3A3B6 /* Pods-WatchLandmarks WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchLandmarks WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		A73D1E5FAAFBD7EB44C88505EEF5FD68 /* Pods-Landmarks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Landmarks-Info.plist"; sourceTree = "<group>"; };
+		AAAD03DFFCDC627DB06FBFE0853CCEFE /* Pods-MacLandmarks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacLandmarks-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFA0E9A1E3E9261C5B2D184C99E90C15 /* Pods-Landmarks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Landmarks-umbrella.h"; sourceTree = "<group>"; };
+		B30F09CB9B09FEFBC5921702EEEAA8FE /* Pods-WatchLandmarks WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchLandmarks WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		B4B3876996A04BDCF1AB6D54DB427A4D /* Pods-WatchLandmarks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchLandmarks-acknowledgements.plist"; sourceTree = "<group>"; };
+		B97B600D3D23762FD5E9B3F7714658C0 /* Pods-WatchLandmarks WatchKit Extension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchLandmarks WatchKit Extension"; path = Pods_WatchLandmarks_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2C22BDA9A2021F140C5E06F6259609 /* Pods-MacLandmarks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacLandmarks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C22E4F824ABDE046298B7D8D9BC135BC /* Pods-WatchLandmarks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchLandmarks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C81FE2FF659B090DDE42000406558064 /* Pods-WatchLandmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchLandmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		D3801019FAED55FCE9E988BAE641417C /* Pods-MacLandmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacLandmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		D4ED37F74A0B32150CAC9E75D58B071D /* Pods-MacLandmarks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MacLandmarks.modulemap"; sourceTree = "<group>"; };
+		D7D4F8BB45A454A0B3F7C0B0970E214A /* Heartbeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Heartbeat.debug.xcconfig; sourceTree = "<group>"; };
+		DD5C9D261EBE860987DC7188DE4BE056 /* Pods-WatchLandmarks WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchLandmarks WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E188C4A677B9D3A02E9880F9EF6056EB /* Pods-WatchLandmarks WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchLandmarks WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E59C6386E226BD018A22A18660BAF449 /* Pods-Landmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Landmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A62E90971716505A5AFFB37E351D3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF340AA72739CCE682ECAD841D04A801 /* Pods-Landmarks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Landmarks-frameworks.sh"; sourceTree = "<group>"; };
+		F5C393FA6F07E0012792058187749B45 /* Pods-Landmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Landmarks.release.xcconfig"; sourceTree = "<group>"; };
+		F622AE50DE77DA60714AFF9ADA52D149 /* Pods-Landmarks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Landmarks-dummy.m"; sourceTree = "<group>"; };
+		F97D6057F2F273247D9BD76450B63621 /* Pods-WatchLandmarks WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchLandmarks WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C0627B7247DB2537E17852D6DEA40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98C06DE4F49A054B97234CF73CC3F64 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2075BD07B816464F12FFB48F587643E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5768E0E5818281D0B9E3F843A896DA24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33958FBAAB91B689705864DCFBDCDA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3639563BA532E89EF96DE46A50B8CDEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E031F1390F0D1383DCFAF7E086B87B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE756958A36A5BBB2184D4FA61FF242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0845B01935E4696E492931A3D6B2A013 /* Pods-Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				6B305D8958D54D6B7CD015A6263B7103 /* Pods-Landmarks.modulemap */,
+				93ACD74CE291502B61F2F9067992550D /* Pods-Landmarks-acknowledgements.markdown */,
+				00B28CC6530749A0B8AA9C9ADB43EE8E /* Pods-Landmarks-acknowledgements.plist */,
+				F622AE50DE77DA60714AFF9ADA52D149 /* Pods-Landmarks-dummy.m */,
+				EF340AA72739CCE682ECAD841D04A801 /* Pods-Landmarks-frameworks.sh */,
+				A73D1E5FAAFBD7EB44C88505EEF5FD68 /* Pods-Landmarks-Info.plist */,
+				AFA0E9A1E3E9261C5B2D184C99E90C15 /* Pods-Landmarks-umbrella.h */,
+				E59C6386E226BD018A22A18660BAF449 /* Pods-Landmarks.debug.xcconfig */,
+				F5C393FA6F07E0012792058187749B45 /* Pods-Landmarks.release.xcconfig */,
+			);
+			name = "Pods-Landmarks";
+			path = "Target Support Files/Pods-Landmarks";
+			sourceTree = "<group>";
+		};
+		0ABDD244617E3A1B4311F5D7B01C6929 /* Pods-MacLandmarks */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED37F74A0B32150CAC9E75D58B071D /* Pods-MacLandmarks.modulemap */,
+				BF2C22BDA9A2021F140C5E06F6259609 /* Pods-MacLandmarks-acknowledgements.markdown */,
+				AAAD03DFFCDC627DB06FBFE0853CCEFE /* Pods-MacLandmarks-acknowledgements.plist */,
+				632D932E3DE40884FCD0048E60F98B97 /* Pods-MacLandmarks-dummy.m */,
+				736C4665ED076EB3559B048A232B8DA9 /* Pods-MacLandmarks-Info.plist */,
+				4914F46CAEEE17071AE519C8753DBB61 /* Pods-MacLandmarks-umbrella.h */,
+				D3801019FAED55FCE9E988BAE641417C /* Pods-MacLandmarks.debug.xcconfig */,
+				2790DF9E903021FC9F69FE09D9F19E66 /* Pods-MacLandmarks.release.xcconfig */,
+			);
+			name = "Pods-MacLandmarks";
+			path = "Target Support Files/Pods-MacLandmarks";
+			sourceTree = "<group>";
+		};
+		178BB5064CD07455B5613B96B9FED5B2 /* Pods-WatchLandmarks */ = {
+			isa = PBXGroup;
+			children = (
+				6995B6F095336C37A17C3F16A57C9D59 /* Pods-WatchLandmarks.modulemap */,
+				C22E4F824ABDE046298B7D8D9BC135BC /* Pods-WatchLandmarks-acknowledgements.markdown */,
+				B4B3876996A04BDCF1AB6D54DB427A4D /* Pods-WatchLandmarks-acknowledgements.plist */,
+				7CE9D38E31B1F6C404571F2B9668A03D /* Pods-WatchLandmarks-dummy.m */,
+				64E4A05C78460EDF531E745B23C4EC7D /* Pods-WatchLandmarks-Info.plist */,
+				150DEA7CC7264D0B94199B21177C21A4 /* Pods-WatchLandmarks-umbrella.h */,
+				C81FE2FF659B090DDE42000406558064 /* Pods-WatchLandmarks.debug.xcconfig */,
+				6E0194154C4D20065BBDD7BD2852C55D /* Pods-WatchLandmarks.release.xcconfig */,
+			);
+			name = "Pods-WatchLandmarks";
+			path = "Target Support Files/Pods-WatchLandmarks";
+			sourceTree = "<group>";
+		};
+		2F489F74366E0260C04CB2FC8769EF15 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				41963334B99EEF01E4481B9D714AE2CE /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		58C11CE16E10BD186F374B81D4B97AA8 /* Pods-WatchLandmarks WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32CB5158F534954673A07F18A5A369C1 /* Pods-WatchLandmarks WatchKit Extension.modulemap */,
+				E188C4A677B9D3A02E9880F9EF6056EB /* Pods-WatchLandmarks WatchKit Extension-acknowledgements.markdown */,
+				F97D6057F2F273247D9BD76450B63621 /* Pods-WatchLandmarks WatchKit Extension-acknowledgements.plist */,
+				9E503F8244AB60DE86F5ED0FC3D3A3B6 /* Pods-WatchLandmarks WatchKit Extension-dummy.m */,
+				231DAA7BEA18D949200ED6B2A1E93657 /* Pods-WatchLandmarks WatchKit Extension-Info.plist */,
+				479CB0A8FED7842B442925B9878FC7D8 /* Pods-WatchLandmarks WatchKit Extension-umbrella.h */,
+				DD5C9D261EBE860987DC7188DE4BE056 /* Pods-WatchLandmarks WatchKit Extension.debug.xcconfig */,
+				B30F09CB9B09FEFBC5921702EEEAA8FE /* Pods-WatchLandmarks WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-WatchLandmarks WatchKit Extension";
+			path = "Target Support Files/Pods-WatchLandmarks WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		60F63CC4B9350A968A2F088B54DEF121 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0110BFEF3150159AC042C8A1291E396A /* Heartbeat-xcframeworks.sh */,
+				D7D4F8BB45A454A0B3F7C0B0970E214A /* Heartbeat.debug.xcconfig */,
+				1EF3EEC1CBDFE6A70D6D7D579D2D8FB8 /* Heartbeat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Heartbeat";
+			sourceTree = "<group>";
+		};
+		655B6100A409093F4602FC04238A05DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C3230034B899E3351F4557E15ACEB4 /* Heartbeat.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65C7F2770FB877C29F1D950A6F19FEFE /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				0A44DD34F5CC7808466AC0BE6DA1F144 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		8A2D84509F99C78E7E324931899F1E81 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0845B01935E4696E492931A3D6B2A013 /* Pods-Landmarks */,
+				0ABDD244617E3A1B4311F5D7B01C6929 /* Pods-MacLandmarks */,
+				178BB5064CD07455B5613B96B9FED5B2 /* Pods-WatchLandmarks */,
+				58C11CE16E10BD186F374B81D4B97AA8 /* Pods-WatchLandmarks WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E08B6C7E878CECB20166025E066E64E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E80181FD09ECE5111C56A68D745B5BC2 /* Heartbeat */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8783D77075022E3CCC03089D6899C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C9ECB6A35800F8E551963B0AA2D880 /* Pods-Landmarks */,
+				35B6435050640FD3006C6DAB8072C721 /* Pods-MacLandmarks */,
+				7E8F89750C5CA9B318651C583A234947 /* Pods-WatchLandmarks */,
+				B97B600D3D23762FD5E9B3F7714658C0 /* Pods-WatchLandmarks WatchKit Extension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD99B57E896C2ADD67D6FE6F650F9B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB816AAA3968620862AA8F48B611AB87 /* iOS */,
+				65C7F2770FB877C29F1D950A6F19FEFE /* OS X */,
+				2F489F74366E0260C04CB2FC8769EF15 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CD99B57E896C2ADD67D6FE6F650F9B6B /* Frameworks */,
+				8E08B6C7E878CECB20166025E066E64E /* Pods */,
+				A8783D77075022E3CCC03089D6899C41 /* Products */,
+				8A2D84509F99C78E7E324931899F1E81 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB816AAA3968620862AA8F48B611AB87 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5A62E90971716505A5AFFB37E351D3D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E80181FD09ECE5111C56A68D745B5BC2 /* Heartbeat */ = {
+			isa = PBXGroup;
+			children = (
+				655B6100A409093F4602FC04238A05DE /* Frameworks */,
+				60F63CC4B9350A968A2F088B54DEF121 /* Support Files */,
+			);
+			name = Heartbeat;
+			path = Heartbeat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09CE1F0A49099D5E36242F73197D556C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760B485156ADEE711E3F82A9E436CE74 /* Pods-MacLandmarks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37642E2A21D78FEC5B5A67D770BFECE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE9372A743A3403139CA4BF23A7CA2E /* Pods-Landmarks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A43E642439E235C2B2BAF8CB3979C6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA3ACA36721250247775D036308F74 /* Pods-WatchLandmarks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70B59C31A36B1CA5160A46084EFBFEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50783ACA583082D8B8B42C95AE1AA57A /* Pods-WatchLandmarks WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		131CD83EC8A1A1E82163D575C271E404 /* Pods-Landmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759DA9F3E6B2B1F4A4F281403F60BA6D /* Build configuration list for PBXNativeTarget "Pods-Landmarks" */;
+			buildPhases = (
+				37642E2A21D78FEC5B5A67D770BFECE3 /* Headers */,
+				C3E4A34DF38B79DC572EE8A1841E23FE /* Sources */,
+				E3E031F1390F0D1383DCFAF7E086B87B /* Frameworks */,
+				E6E87D1D92A3AA9AC9AB9760A158B179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF8D2B573C921643F2E1BA98B8857CC /* PBXTargetDependency */,
+			);
+			name = "Pods-Landmarks";
+			productName = Pods_Landmarks;
+			productReference = 60C9ECB6A35800F8E551963B0AA2D880 /* Pods-Landmarks */;
+			productType = "com.apple.product-type.framework";
+		};
+		564D2F8532C358756E45477A1333748A /* Pods-WatchLandmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7BC220960B7360197B222E4C41F509 /* Build configuration list for PBXNativeTarget "Pods-WatchLandmarks" */;
+			buildPhases = (
+				7A43E642439E235C2B2BAF8CB3979C6D /* Headers */,
+				A35BE5ACC1CBCF9C2CF6F5D4A01E020D /* Sources */,
+				33958FBAAB91B689705864DCFBDCDA82 /* Frameworks */,
+				E42DE79CFCC9C8AC3BAE8F073E9485CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WatchLandmarks";
+			productName = Pods_WatchLandmarks;
+			productReference = 7E8F89750C5CA9B318651C583A234947 /* Pods-WatchLandmarks */;
+			productType = "com.apple.product-type.framework";
+		};
+		AED9E951B152262C9671B85AC23B76B8 /* Pods-MacLandmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFECF1FA2EC6EFBF8938E6412339118 /* Build configuration list for PBXNativeTarget "Pods-MacLandmarks" */;
+			buildPhases = (
+				09CE1F0A49099D5E36242F73197D556C /* Headers */,
+				D03CD2746777117EB11119E3D077F959 /* Sources */,
+				10C0627B7247DB2537E17852D6DEA40D /* Frameworks */,
+				16D6031EF56CEA49D51EDE062FBB543A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MacLandmarks";
+			productName = Pods_MacLandmarks;
+			productReference = 35B6435050640FD3006C6DAB8072C721 /* Pods-MacLandmarks */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBEE6C82058F1FE8F01903F68DE77E09 /* Pods-WatchLandmarks WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7747C3A7A8B94B42770CA91148B2B2 /* Build configuration list for PBXNativeTarget "Pods-WatchLandmarks WatchKit Extension" */;
+			buildPhases = (
+				A70B59C31A36B1CA5160A46084EFBFEB /* Headers */,
+				C05528EC1DBC5666D8020D6803AED922 /* Sources */,
+				2075BD07B816464F12FFB48F587643E4 /* Frameworks */,
+				F71D760E60F1A29DCA5C24E4887D5449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WatchLandmarks WatchKit Extension";
+			productName = Pods_WatchLandmarks_WatchKit_Extension;
+			productReference = B97B600D3D23762FD5E9B3F7714658C0 /* Pods-WatchLandmarks WatchKit Extension */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A8783D77075022E3CCC03089D6899C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA09679C1E0291AF996C0639DC88625 /* Heartbeat */,
+				131CD83EC8A1A1E82163D575C271E404 /* Pods-Landmarks */,
+				AED9E951B152262C9671B85AC23B76B8 /* Pods-MacLandmarks */,
+				564D2F8532C358756E45477A1333748A /* Pods-WatchLandmarks */,
+				EBEE6C82058F1FE8F01903F68DE77E09 /* Pods-WatchLandmarks WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D6031EF56CEA49D51EDE062FBB543A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42DE79CFCC9C8AC3BAE8F073E9485CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E87D1D92A3AA9AC9AB9760A158B179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71D760E60F1A29DCA5C24E4887D5449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2E196E7912171BBF1C85A69065DDBF1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Heartbeat/Heartbeat-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Heartbeat/Heartbeat-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Heartbeat/Heartbeat-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A35BE5ACC1CBCF9C2CF6F5D4A01E020D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08856053EE7B2B120263034638A16AC3 /* Pods-WatchLandmarks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05528EC1DBC5666D8020D6803AED922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15420349F4DB044DA1035DEFEFB12CC /* Pods-WatchLandmarks WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4A34DF38B79DC572EE8A1841E23FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A63C08EB81EDA6F5595C0A5A9DEBD2 /* Pods-Landmarks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CD2746777117EB11119E3D077F959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D19B5BFEB88257CEA50C0D799835F8 /* Pods-MacLandmarks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF8D2B573C921643F2E1BA98B8857CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Heartbeat;
+			target = FFA09679C1E0291AF996C0639DC88625 /* Heartbeat */;
+			targetProxy = 68C44A46297326C071EA8B638008B4A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0438D964C82B308683E9037927EFDD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF3EEC1CBDFE6A70D6D7D579D2D8FB8 /* Heartbeat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0571C4AE143D46C93B64C08B2A889EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		0BB1D5717CA79781B0BB1F56849FEE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59C6386E226BD018A22A18660BAF449 /* Pods-Landmarks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Landmarks/Pods-Landmarks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Landmarks/Pods-Landmarks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C1CE72BA03B6837575EF98BB843CC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C393FA6F07E0012792058187749B45 /* Pods-Landmarks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Landmarks/Pods-Landmarks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Landmarks/Pods-Landmarks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24E8EF8A879E0844E46698F1624267D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5C9D261EBE860987DC7188DE4BE056 /* Pods-WatchLandmarks WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchLandmarks WatchKit Extension/Pods-WatchLandmarks WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchLandmarks WatchKit Extension/Pods-WatchLandmarks WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		56010C9A825FB6D109D5075BB64FEA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D4F8BB45A454A0B3F7C0B0970E214A /* Heartbeat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6151F08532F73DD94557F914608715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F09CB9B09FEFBC5921702EEEAA8FE /* Pods-WatchLandmarks WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchLandmarks WatchKit Extension/Pods-WatchLandmarks WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchLandmarks WatchKit Extension/Pods-WatchLandmarks WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		962CE764357CC76755AFC1D5B81652A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2790DF9E903021FC9F69FE09D9F19E66 /* Pods-MacLandmarks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MacLandmarks/Pods-MacLandmarks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacLandmarks/Pods-MacLandmarks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8652BA6DD17CBA7A5E9A860649108A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3801019FAED55FCE9E988BAE641417C /* Pods-MacLandmarks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MacLandmarks/Pods-MacLandmarks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacLandmarks/Pods-MacLandmarks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9E14A87FC7B070DDCBE6405B9C7BFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0194154C4D20065BBDD7BD2852C55D /* Pods-WatchLandmarks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchLandmarks/Pods-WatchLandmarks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchLandmarks/Pods-WatchLandmarks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		F9F2030934919E39DBE35F6D39CF89B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FD082B1E64F92977665E0069D759B763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81FE2FF659B090DDE42000406558064 /* Pods-WatchLandmarks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchLandmarks/Pods-WatchLandmarks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchLandmarks/Pods-WatchLandmarks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BFECF1FA2EC6EFBF8938E6412339118 /* Build configuration list for PBXNativeTarget "Pods-MacLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8652BA6DD17CBA7A5E9A860649108A6 /* Debug */,
+				962CE764357CC76755AFC1D5B81652A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F2030934919E39DBE35F6D39CF89B9 /* Debug */,
+				0571C4AE143D46C93B64C08B2A889EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759DA9F3E6B2B1F4A4F281403F60BA6D /* Build configuration list for PBXNativeTarget "Pods-Landmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB1D5717CA79781B0BB1F56849FEE14 /* Debug */,
+				0C1CE72BA03B6837575EF98BB843CC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7747C3A7A8B94B42770CA91148B2B2 /* Build configuration list for PBXNativeTarget "Pods-WatchLandmarks WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8EF8A879E0844E46698F1624267D4 /* Debug */,
+				5F6151F08532F73DD94557F914608715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7BC220960B7360197B222E4C41F509 /* Build configuration list for PBXNativeTarget "Pods-WatchLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD082B1E64F92977665E0069D759B763 /* Debug */,
+				D9E14A87FC7B070DDCBE6405B9C7BFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE25D5E96E7E85C773E2D0A779AC5E1 /* Build configuration list for PBXAggregateTarget "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56010C9A825FB6D109D5075BB64FEA6E /* Debug */,
+				0438D964C82B308683E9037927EFDD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Heartbeat (3.2.1.534999)
+
+DEPENDENCIES:
+  - Heartbeat
+
+SPEC REPOS:
+  https://git-codecommit.us-east-1.amazonaws.com/v1/repos/release-mobile-ios-specs:
+    - Heartbeat
+
+SPEC CHECKSUMS:
+  Heartbeat: 4f74c465934f6d66806352807672a6bab61f0827
+
+PODFILE CHECKSUM: 1dd1c5d3966ca6355cc212d524f6c48a1a4637d2
+
+COCOAPODS: 1.11.2
